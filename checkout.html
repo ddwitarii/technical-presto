@@ -1,0 +1,553 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Complete your Technical Presto plan selection and explore a new way to experience music."
+    >
+
+    <meta name="author" content="Technical Presto">
+
+    <meta name="theme-color" content="#080808">
+    <meta property="og:title" content="Checkout | Technical Presto">
+
+    <meta
+    property="og:description"
+    content="Review your selected Technical Presto plan and complete your demo registration."
+    >
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:site_name" content="Technical Presto">
+
+    <meta property="og:locale" content="en_US">
+
+    <title>Checkout | Technical Presto</title>
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- MAIN CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- NAVIGATION -->
+
+    <header id="navbar"></header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+
+        <!-- PAGE HERO -->
+
+        <section class="page-hero">
+
+            <div class="container">
+
+                <span class="section-label">
+                    COMPLETE YOUR SELECTION
+                </span>
+
+                <h1>
+                    Your next music
+                    <span class="text-gradient">experience starts here.</span>
+                </h1>
+
+                <p>
+                    Review your selected plan and complete
+                    your registration with Technical Presto.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CHECKOUT SECTION -->
+
+        <section
+        class="checkout-section section-padding"
+        aria-labelledby="checkout-title"
+        >
+
+            <div class="container">
+
+                <div class="checkout-layout">
+
+
+                    <!-- CHECKOUT FORM -->
+
+                    <div class="checkout-form-wrapper">
+
+                        <div class="checkout-heading">
+
+                            <span class="section-label">
+                                YOUR DETAILS
+                            </span>
+
+                            <h2> id="checkout-title">
+                                Let's get you started.
+                            </h2>
+
+                            <p>
+                                Enter your information below
+                                to continue with your selected plan.
+                            </p>
+
+                        </div>
+
+
+                        <form
+                            id="checkout-form"
+                            class="checkout-form"
+                        >
+
+
+                            <!-- CUSTOMER INFORMATION -->
+
+                            <div class="form-group">
+
+                                <label for="customer-name">
+                                    Full Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="customer-name"
+                                    name="name"
+                                    placeholder="Enter your full name"
+                                    autocomplete="name"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="customer-email">
+                                    Email Address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="customer-email"
+                                    name="email"
+                                    placeholder="Enter your email address"
+                                    autocomplete="email"
+                                    required
+                                >
+
+                            </div>
+
+
+
+                            <!-- SELECTED PLAN -->
+
+                            <div class="form-group">
+
+                                <label for="selected-plan">
+                                    Selected Plan
+                                </label>
+
+                                <select
+                                    id="selected-plan"
+                                    name="plan"
+                                    required
+                                >
+
+                                    <option value="Free">
+                                        Free Plan
+                                    </option>
+
+                                    <option value="Creator">
+                                        Creator Plan
+                                    </option>
+
+                                    <option value="Pro">
+                                        Pro Plan
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+
+                            <!-- PAYMENT METHOD -->
+
+                            <div class="payment-method-section">
+
+                                <h3>
+                                    Payment Method
+                                </h3>
+
+                                <p>
+                                    Choose a payment method
+                                    for this demo checkout.
+                                </p>
+
+
+                                <div
+                                class="payment-options"
+                                role="group"
+                                aria-label="Choose a demo payment method"
+                                >
+
+
+                                    <label class="payment-option">
+
+                                        <input
+                                            type="radio"
+                                            name="payment"
+                                            value="Credit / Debit Card"
+                                            checked
+                                        >
+
+                                        <span class="payment-option-content">
+
+                                            <span class="payment-icon">
+                                                <i>▣</i>
+                                            </span>
+
+                                            <span>
+                                                <strong>
+                                                    Credit / Debit Card
+                                                </strong>
+
+                                                <small>
+                                                    Card payment simulation
+                                                </small>
+                                            </span>
+
+                                        </span>
+
+                                    </label>
+
+
+
+                                    <label class="payment-option">
+
+                                        <input
+                                            type="radio"
+                                            name="payment"
+                                            value="Digital Wallet"
+                                        >
+
+                                        <span class="payment-option-content">
+
+                                            <span class="payment-icon">
+                                                <i>◈</i>
+                                            </span>
+
+                                            <span>
+                                                <strong>
+                                                    Digital Wallet
+                                                </strong>
+
+                                                <small>
+                                                    Wallet payment simulation
+                                                </small>
+                                            </span>
+
+                                        </span>
+
+                                    </label>
+
+
+
+                                    <label class="payment-option">
+
+                                        <input
+                                            type="radio"
+                                            name="payment"
+                                            value="Bank Transfer"
+                                        >
+
+                                        <span class="payment-option-content">
+
+                                            <span class="payment-icon">
+                                                <i>▤</i>
+                                            </span>
+
+                                            <span>
+                                                <strong>
+                                                    Bank Transfer
+                                                </strong>
+
+                                                <small>
+                                                    Transfer simulation
+                                                </small>
+                                            </span>
+
+                                        </span>
+
+                                    </label>
+
+
+                                </div>
+
+                            </div>
+
+
+
+                            <!-- TERMS -->
+
+                            <div class="checkout-terms">
+
+                                <label>
+
+                                    <input
+                                        type="checkbox"
+                                        id="agree-terms"
+                                        name="agree-terms"
+                                        required
+                                    >
+
+                                    <span>
+                                        I agree to the
+                                        <a href="privacy.html">
+                                            Privacy Policy
+                                        </a>
+                                        and understand that this
+                                        is a demonstration checkout.
+                                    </span>
+
+                                </label>
+
+                            </div>
+
+
+
+                            <!-- SUBMIT -->
+
+                            <button
+                                type="submit"
+                                class="btn-primary checkout-submit"
+                            >
+
+                                Complete Demo Registration
+
+                                <span aria-hidden="true">→</span>
+
+                            </button>
+
+
+                            <p class="checkout-disclaimer">
+                                <span aria-hidden="true">ⓘ</span>
+                                This is a portfolio demonstration.
+                                No actual payment will be collected
+                                and no transaction will take place.
+                            </p>
+
+
+                        </form>
+
+                    </div>
+
+
+
+                    <!-- ORDER SUMMARY -->
+
+                    <aside
+                        class="order-summary">
+                        aria-labelledby="summary-title"
+                    >
+
+                        <div class="order-summary-header">
+
+                            <span class="section-label">
+                                ORDER SUMMARY
+                            </span>
+
+                            <h2> id="summary-title">
+                                Your selection.
+                            </h2>
+
+                        </div>
+
+
+                        <div class="summary-plan-icon">
+                            TP
+                        </div>
+
+
+                        <h3 id="summary-plan-name">
+                            Creator Plan
+                        </h3>
+
+                        <p class="summary-description">
+                            Your creative journey starts here.
+                        </p>
+
+
+                        <div class="summary-divider"></div>
+
+
+                        <div class="summary-row">
+
+                            <span>Selected Plan</span>
+
+                            <strong id="summary-plan">
+                                Creator
+                            </strong>
+
+                        </div>
+
+
+                        <div class="summary-row">
+
+                            <span>Billing Period</span>
+
+                            <strong id="summary-period">
+                                Monthly
+                            </strong>
+
+                        </div>
+
+
+                        <div class="summary-divider"></div>
+
+
+                        <div class="summary-price">
+
+                            <span>Total</span>
+
+                            <div>
+
+                                <strong id="summary-price">
+                                    $4.99
+                                </strong>
+
+                                <small id="summary-price-period">
+                                    / month
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="summary-note">
+
+                            <span aria-hidden="true">✦</span>
+
+                            <p>
+                                Your selected plan is designed
+                                to help you explore music
+                                through creativity and technology.
+                            </p>
+
+                        </div>
+
+
+                        <a
+                            href="shop.html"
+                            class="summary-back-link"
+                        >
+                            ← Back to plans
+                        </a>
+
+
+                    </aside>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SUCCESS MESSAGE -->
+
+        <section
+            class="checkout-success"
+            id="checkout-success"
+            hidden
+        >
+
+            <div class="checkout-success-content">
+
+                <div class="success-icon">
+                    ✓
+                </div>
+
+                <span class="section-label">
+                    DEMO CHECKOUT COMPLETED
+                </span>
+
+                <h2>
+                    You're all set!
+                </h2>
+
+                <p>
+                    Thank you for exploring Technical Presto.
+                    Your demo registration has been completed.
+                </p>
+
+                <div class="success-order-details">
+
+                    <span>Selected Plan</span>
+
+                    <strong id="success-plan">
+                        Creator Plan
+                    </strong>
+
+                </div>
+
+                <a
+                    href="index.html"
+                    class="btn-primary"
+                >
+                    Back to Home
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer id="footer"></footer>
+
+
+    <!-- MAIN JAVASCRIPT -->
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
